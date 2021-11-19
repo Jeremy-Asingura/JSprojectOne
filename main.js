@@ -15,7 +15,9 @@ let age = prompt("How old are you?");
 // ! to determine whether they are a child or an adult
 
 if (age < 18) {
-    alert(`You are not an adult.}`)
+    alert("You are not an adult.")
 } else {
-    alert(`You are an adult.`)
+    alert("You are an adult.")
 }
+
+alert(`Thank you ${firstName} ${secondName} for visiting my website`)
